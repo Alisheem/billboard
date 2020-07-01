@@ -1,1 +1,1 @@
-web: gunicorn billboard_py:app --log-file=-
+web: gunicorn billboard_api:app --log-file=-
